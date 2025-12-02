@@ -13,8 +13,8 @@ jobs:
       - name: Testing pwd
         run: pwd
 
-      - name: Testing printing
-        run: echo hello
+      - name: print folder content
+        run: ls
 
 
 
