@@ -13,9 +13,14 @@ jobs:
       - name: Testing pwd
         run: pwd
 
-      - name: print folder content
+      - name: print folder content before
         run: ls
 
+      - uses: actions/checkout@v3
+      
+      - name: print folder content after
+        run: ls
+      
 
 
 
