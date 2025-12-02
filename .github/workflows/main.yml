@@ -1,2 +1,23 @@
+on:
+  push:
+   branches:
+      - master
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu_latest
+       
+
+    steps:
+      - name: " testing"
+        run: pwd
+      - name: "testing printing"  
+        run: echo hello
+
+
+
 
 
