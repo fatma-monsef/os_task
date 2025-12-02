@@ -1,20 +1,19 @@
+name: Test Workflow
+
 on:
   push:
-   branches:
+    branches:
       - master
-
-
-
 
 jobs:
   build:
-    runs-on: ubuntu_latest
-       
+    runs-on: ubuntu-latest
 
     steps:
-      - name: " testing"
+      - name: Testing pwd
         run: pwd
-      - name: "testing printing"  
+
+      - name: Testing printing
         run: echo hello
 
 
